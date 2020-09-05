@@ -10,5 +10,4 @@ class Bullet:
 
     def set_travel_distance(self, bullet_travel):
         self.y -= bullet_travel
-        if self.y <= 50:
-            self.set_ready(True)
+

@@ -17,8 +17,6 @@ class Enemy:
             self.change_y(70)
 
     def change_y(self, y):
-        self.y += y if (20 <= self.y + y <= 700) else 0
+        self.y += y if (20 <= self.y + y <= 600) else 0
 
-    def respawn(self):
-        self.x = 200
-        self.y = 100
+
